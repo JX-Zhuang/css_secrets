@@ -1,0 +1,23 @@
+.box {
+    width        : 300px;
+    height       : 100px;
+    background   : yellowgreen;
+    margin-bottom: 10px;
+    box-sizing   : border-box;
+}
+
+.bg-position {
+    background         : url('./bg.webp') center center / 50px no-repeat #58a;
+    background-position: right 20px bottom 10px;
+}
+
+.bg-origin {
+    padding          : 10px 20px;
+    background       : url('./bg.webp') bottom right/50px no-repeat #58a;
+    background-origin: content-box;
+}
+
+.calc {
+    background         : url('./bg.webp') center center / 50px no-repeat #58a;
+    background-position: calc(100% - 20px) calc(100% - 10px);
+}

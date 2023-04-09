@@ -1,0 +1,18 @@
+.box1 {
+    background: #655;
+    padding   : .8em;
+}
+
+.box1>div {
+    background   : tan;
+    border-radius: .8em;
+    padding      : 1em;
+}
+
+.box2 {
+    background   : tan;
+    border-radius: .8em;
+    padding      : 1em;
+    box-shadow   : 0 0 0 .6em #655;
+    outline      : .6em solid #655;
+}
