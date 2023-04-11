@@ -1,0 +1,41 @@
+.box {
+    width        : 100px;
+    height       : 50px;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    position: relative;
+    cursor: pointer;
+}
+.box1::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    background:#58a;
+    transform: skew(-45deg);
+}
+
+.box2 {
+    border-radius: 50% / 100% 100% 0 0;
+}
+
+.box3 {
+    border-radius: 50% / 0 0 100% 100%;
+}
+
+.box4 {
+    border-radius: 100% 0 0 100% / 50%;
+}
+
+.box5 {
+    border-radius: 0 100% 100% 0 / 50%;
+}
+
+.box6 {
+    border-radius: 100% 0 0 0;
+}
